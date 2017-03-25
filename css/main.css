@@ -1,0 +1,84 @@
+html{
+	margin: 20px;
+}
+
+body{
+	display: inline-block;
+	text-decoration: none;
+	background: #e4cfba;
+	margin: 0;
+	padding: 0;
+	border: 5px solid #16151a;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.section-one ul li, .section-middle-black ul li{
+	display: inline-block;
+}
+
+.section-one ul a, .section-middle-black ul a{
+	display: inline-block;
+	text-decoration: none;
+	min-width: 10rem;
+	height: 10rem;
+	border: 1px solid #16151a;
+}
+
+.section-none ul li, .section-none-two ul li{
+	display: inline-block;
+}
+
+.section-none ul a, .section-none-two ul a{
+	display: inline-block;
+	text-decoration: none;
+	min-width: 10rem;
+	height: 10rem;
+	border: 1px solid #16151a;
+}
+
+.section-middle-red ul li, .section-two ul li{
+	display: inline-block;
+}
+
+.section-middle-red ul a, .section-two ul a{
+	display: inline-block;
+	text-decoration: none;
+	min-width: 10rem;
+	height: 10rem;
+	border: 1px solid #16151a;
+}
+
+.section-none ul li:nth-child(even){
+	background: #16151a;
+}
+
+.section-none-two ul li:nth-child(odd){
+	background: #16151a;
+}
+
+.section-one ul li:nth-child(odd){
+	background: url(../img/black.png);
+}
+
+.section-two ul li:nth-child(even){
+	background: url(../img/red.png);
+}
+
+.section-middle-black ul li:nth-child(even){
+	background: url(../img/black.png);
+}
+
+.section-middle-red ul li:nth-child(odd){
+	background: url(../img/red.png);
+}
+
+ul li a:hover{
+	background: pink;
+	opacity: 0.5;
+}

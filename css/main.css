@@ -63,19 +63,19 @@ ul{
 }
 
 .section-one ul li:nth-child(odd){
-	background: url(../img/black.png);
+	background: #16151a url(../img/black.png) no-repeat center center;
 }
 
 .section-two ul li:nth-child(even){
-	background: url(../img/red.png);
+	background: #16151a url(../img/red.png) no-repeat center center;
 }
 
 .section-middle-black ul li:nth-child(even){
-	background: url(../img/black.png);
+	background: #16151a url(../img/black.png) no-repeat center center;
 }
 
 .section-middle-red ul li:nth-child(odd){
-	background: url(../img/red.png);
+	background: #16151a url(../img/red.png) no-repeat center center;
 }
 
 ul li a:hover{
